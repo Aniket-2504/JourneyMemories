@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/path/to/fonts/Gilroy.woff2') format('woff2'),
+       url('/path/to/fonts/Gilroy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+*{
+  font-family: "Gilroy",sans-serif;
+}
+
+::selection{
+  color: rgb(0, 200, 0);
+}
